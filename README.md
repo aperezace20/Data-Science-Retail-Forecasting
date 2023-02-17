@@ -11,15 +11,25 @@ Target Variable: Persistency_Flag
 Task:
 
 Problem understanding
+
 Data Understanding
+
 Data Cleaning and Feature engineering
+
 Model Development
+
 Model Selection
+
 Model Evaluation
+
 Report the accuracy, precision and recall of both the class of target variable
+
 Report ROC-AUC as well
+
 Deploy the model
+
 Explain the challenges and model selection
+
 Feature Description:
 
 Bucket	Variable	Variable Description
