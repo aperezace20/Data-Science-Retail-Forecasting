@@ -1,32 +1,17 @@
 Problem Statement:
 
-One of the challenge for all Pharmaceutical companies is to understand the persistency of drug as per the physician prescription. To solve this problem ABC pharma company approached an analytics company to automate this process of identification.
+The large company who is into beverages business in Australia. They sell their products through various super-markets and also engage into heavy promotions throughout the year. Their demand is also influenced by various factors like holiday, seasonality. They needed forecast of each of products at item level every week in weekly buckets. 
 
-ML Problem:
+ 
 
-With an objective to gather insights on the factors that are impacting the persistency, build a classification for the given dataset.
+Challenges:
 
-Target Variable: Persistency_Flag
+The time series data showed a range of patterns, some with trends, some seasonal, and some with neither. At the time, they were using their own software, written in-house, but it often produced forecasts that did not seem sensible. Company wanted to explore power of AI/ML based forecasting to replace their in house local solution 
 
-Task:
+Objective:
 
-1. Problem understanding
-
-2. Data Understanding
-
-3. Data Cleaning and Feature engineering
-
-4. Model Development
-
-5. Model Selection
-
-6. Model Evaluation
-
-7. Report the accuracy, precision and recall of both the class of target variable
-
-8. Report ROC-AUC as well
-
-9. Deploy the model
-
-10. Explain the challenges and model selection
+1. Build atleast 4-5 multivariate forecasting model which included ML or Deep Learning based Model in PySpark leveraging parallel computing techniques(You can develop models without Pyspark if you are not comfortable with pyspark and parallel computing).
+2. Demonstrate best in class forecast accuracy (Forecast Accuracy = 1 - Wt. MAPE where Wt. MAPE = sum(Error)/sum(Actual)
+3. Write a code in such a way you run the model in least time
+4. Demonstrate explainability in the form of contribution of each variables
 
